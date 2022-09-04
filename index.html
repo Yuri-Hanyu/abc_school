@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC学院</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700;900&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container w-container">
+            <div class="site-logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+
+            <nav class="g-nav">
+                <ul>
+                    <li>
+                        <a href="#about">
+                            <span class="en">ABOUT</span>
+                            <span class="ja">当学院について</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#feature">
+                            <span class="en">FEATURE</span>
+                            <span class="ja">当学院の強み</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="#lesson">
+                            <span class="en">LESSON</span>
+                            <span class="ja">授業内容</span>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a href="#campus">
+                            <span class="en">CAMPUS</span>
+                            <span class="ja">キャンバス紹介</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="header-btn" href="#">
+                            <!-- <span class="icon"><i class="fa-solid fa-book-open"></i></span> -->
+                            <span class="brochure">
+                                資料請求は<br>
+                                こちら<i class="fa-solid fa-angles-right"></i>
+                            </span> 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="navbtn" onclick="document.querySelector('html').classList.toggle('open')">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+                <span>メニュー</span>
+            </button>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li>
+                        <a href="index.html#about">
+                            <span class="en">ABOUT</span>
+                            <span class="ja">当学院について</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="index.html#feature">
+                            <span class="en">FEATURE</span>
+                            <span class="ja">当学院の強み</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="index.html#lesson">
+                            <span class="en">LESSON</span>
+                            <span class="ja">授業内容</span>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a href="index.html#campus">
+                            <span class="en">CAMPUS</span>
+                            <span class="ja">キャンバス紹介</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="apeal" href="#">
+                            <!-- <span class="icon"><i class="fa-solid fa-book-open"></i></span> -->
+                            <span class="btn">
+                                資料請求は<br>
+                                こちら
+                            </span> 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="catch">
+                <h2>e-sports<br>学科</h2>
+                <p>
+                    プロゲーマーを目指すためのカリキュラム、現役のプロによる直接指導、最高の仲間と高めあえるコミュニティを提供。
+                </p>
+                <p>世界で活躍できるようなプレイヤーを養成します。</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="about-container w-container">
+            <h2 class="heading-lv2" data-en="ABOUT">
+                <span>当学院について</span>
+            </h2>
+
+            <div class="about-content">
+                <div class="about-img animate slide-from-left">
+                    <img src="img/hero.webp" alt="">
+                </div>
+
+                <div class="about-text animate delay slide-from-right">
+                    <p>
+                        <span class="bold">e-sports</span>は、近年めざましい発展を遂げています。
+                        今後も世界中で人口が増え続け、ますます盛り上がりを見せていくことでしょう。
+                    </p>
+    
+                    <p>
+                        当学院では、<span class="bold marker">「思う存分ゲーム漬けになれる最強の環境」</span>を提供。<br>
+                        現役のプロコーチの指導により<span class="bold">挫折しにくい</span>仕組みが整っております。
+                    </p>
+                        
+                    <p>
+                        <span class="bold marker">夢をかなえて輝きたいあなた</span>へ、ぜひオープンキャンパスやイベントにてその思いをご相談ください。
+                    </p>    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="feature">
+        <div class="feature-container w-container">
+            <h2 class="heading-lv2 black" data-en="FEATURE">
+                <span>当学院の強み</span>
+            </h2>
+
+            <div class="feature-content">
+                <div class="feature-item animate">
+                    <h3 class="heading-number" data-number="01">現役プロによる徹底指導</h3>
+                    <div class="feature-text">
+                        <p><span class="bold">現役活躍中のプロ</span>から学べます。</p>
+                        <p>技術はもちろんのこと、プロを志すからこそのお悩みに<span class="bold marker">プレイヤーならではの視点</span>から寄り添いサポートを行っております。</p>
+                    </div>
+                </div>
+
+                <div class="feature-item animate delay">
+                    <h3 class="heading-number" data-number="02">可能性を広げるカリキュラム</h3>
+                    <div class="feature-text">
+                        <p>1年次は、<span class="bold marker">自らの得意分野を発見する</span>ため、まずは<span class="bold">幅広いゲームタイトル</span>を楽しみます。</p>
+                        <p>2年次より専攻を決め、プロフェッショナルを目指します。</p>
+                    </div>
+                </div>
+          
+                <div class="feature-item animate delay-more">
+                    <h3 class="heading-number" data-number="03">最新のゲーミング設備を完備</h3>
+                    <div class="feature-text">
+                        <p>当学院では、プロゲーマーが実際に使用しているPCを<span class="bold">1人1台</span>完備。</p>
+                        <p>その他、昇降デスクやゲーミングチェアをご用意し、<span class="bold marker">ゲームに集中できる環境づくり</span>に力を入れています。</p>
+                    </div>
+                </div>
+     
+                <div class="feature-item animate delay-most">
+                    <h3 class="heading-number" data-number="04">共に闘う仲間が見つかる環境</h3>
+                    <div class="feature-text">
+                        <p>当学院では、<span class="bold">生徒同士のコミュニケーション</span>を大事にしております。</p>
+                        <p>チームでの大会出場やサークル活動を通じて、<span class="bold marker">共にプロフェッショナルを目指して切磋琢磨する仲間</span>に出会えます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lesson">
+        <div class="w-container">
+            <div class="lesson-container animate">
+                <h2 class="heading-lv2" data-en="LESSON">
+                    <span>授業内容</span>
+                </h2>
+                <div class="lead">
+                    <p>当学院では、1年次に幅広いゲームタイトルをプレイし、自らの得意分野を見つけ出します。</p>
+                    <p>2年次より専攻となるジャンルを定め、プロフェッショナルを目指す点が特徴です。</p>
+                </div>
+                
+                <ul class="curriculum">
+                    <li class="first">
+                        <div class="year">
+                            1年次
+                        </div>
+    
+                        <div class="detail">
+                            自分の得意分野を<br>見つける
+                        </div>
+                    </li>
+                  
+                    <li class="second">
+                        <div class="year">
+                            2年次
+                        </div>
+    
+                        <div class="detail">
+                            実習を重ねて<br>実力を伸ばす
+                        </div>
+                    </li>
+        
+                    <li class="third">
+                        <div class="year">
+                            3年次
+                        </div>
+    
+                        <div class="detail">
+                            大会出場を通して<br>プロの世界へ
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="accordion">
+                <dl>
+                    <div>
+                        <dt>1年次のカリキュラム</dt>
+                        <dd>e-sports基礎理論 / ゲーム実習基礎 / フィジカルトレーニング / メンタルトレーニング</dd>
+                    </div>
+      
+                    <div>
+                        <dt>2年次のカリキュラム</dt>
+                        <dd>e-sport研究 / ゲーム実習応用 / ゲーム戦略 / チームトレーニング </dd>
+                    </div>
+
+                    <div>
+                        <dt>3年次のカリキュラム</dt>
+                        <dd>大会出場練習 / イベント企画・出店 / チームトレーニング</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <section id="campus">
+        <div class="w-container">
+            <div class="campus-container">
+                <h2 class="heading-lv2 black" data-en="CAMPUS">
+                    <span>キャンパス紹介</span>
+                </h2>
+                <div class="campus-item">
+                    <div class="img animate slide-from-left">
+                        <img src="img/campus1.webp" alt="トレーニングルーム">
+                    </div>
+                    <div class="text animate delay slide-from-right">
+                        <h3>トレーニングルーム</h3>
+                        <p>
+                            PCはもちろんのこと、マウス、チェアといった<span class="bold">デバイスまでプロ仕様にこだわりました。</span><br>
+                            <span class="bold marker">「ゲームにとことん没頭してほしい」</span>という当学院の思いが込められています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="campus-item">
+                    <div class="img animate slide-from-right">
+                        <img src="img/battle_booth2.webp" alt="トレーニングルーム">
+                    </div>
+                    <div class="text animate delay slide-from-left">
+                        <h3>対戦ブース</h3>
+                        <p>
+                            <span class="bold">より本番に近い環境に慣れていただくために</span>、対戦ブースをご用意しております。<br>
+                            当学院では定期的に模擬大会を開催し、<span class="bold marker">モチベーションアップの機会</span>としております。
+                        </p>
+                    </div>
+                </div>
+ 
+                <div class="campus-item">
+                    <div class="img animate slide-from-left">
+                        <img src="img/drink.webp" alt="トレーニングルーム">
+                    </div>
+                    <div class="text animate delay slide-from-right">
+                        <h3>その他施設・設備</h3>
+                        <p>
+                            売店 / 観戦ブース / コミュニケーションスペース / 面談室 / etc…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="action">
+        <div class="action-container">
+            <div class="action-main animate">
+                <div class="balloon">
+                    <p>簡単3分!</p>
+                </div>
+                
+                <a class="btn brochure" href="#">資料請求はこちら</a>
+            </div>
+        
+            <img class="book" src="img/brochure .jpg" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class=" footer-container w-container">
+            <div class="footer-info">
+                <div class="logo"><img src="img/logo.svg" alt=""></div>
+                <div class="phone">
+                    <p>0120-1234-1234</p>
+                </div>
+                <a class="btn contact" href="#">お問い合わせ</a>
+            </div>
+    
+            <div class="footer-sns">
+                <ul>
+                    <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copy">2022 &copy;ABC GAKUIN ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="js/accordion.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/appeal_btn.js"></script>
+</body>
+</html>
