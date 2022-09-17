@@ -1,5 +1,9 @@
 'use strict';
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
     const appeal_btn = document.getElementById('appeal');
     window.addEventListener("scroll", () => {
     const currentY = window.pageYOffset;
@@ -13,4 +17,8 @@
         }, 1);
     }
     });
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 }

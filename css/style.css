@@ -863,6 +863,17 @@ _::-webkit-full-page-media,_:future,:root .hero{
     animation: bookFloat 2.5s infinite;
 }
 
+<<<<<<< HEAD
+=======
+/* .action-left {
+    width: 70%;
+}
+
+.action-right {
+    width: 20%;
+} */
+
+>>>>>>> origin/main
 @media (min-width: 768px) {
     .action-container  {
         flex-direction: column;
