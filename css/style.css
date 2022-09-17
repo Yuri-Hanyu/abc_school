@@ -863,14 +863,6 @@ _::-webkit-full-page-media,_:future,:root .hero{
     animation: bookFloat 2.5s infinite;
 }
 
-/* .action-left {
-    width: 70%;
-}
-
-.action-right {
-    width: 20%;
-} */
-
 @media (min-width: 768px) {
     .action-container  {
         flex-direction: column;
